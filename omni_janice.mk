@@ -1,5 +1,8 @@
 # Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/gsm.mk)
+$(call inherit-product, vendor/omni/config/gsm.mk)
+
+# Inherit Omni Product configuration
+$(call inherit-product, vendor/omni/config/common.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := GT-I9070
