@@ -11,15 +11,6 @@ PRODUCT_RELEASE_NAME := GT-I9070
 TARGET_SCREEN_HEIGHT := 800
 TARGET_SCREEN_WIDTH := 480
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
-
-# If the boot animation is not automatically selected, we chose it here :)
-
-PRODUCT_COPY_FILES +=  \
-    vendor/cm/prebuilt/common/bootanimation/480.zip:system/media/bootanimation.zip
-
-
 # Inherit device configuration
 $(call inherit-product, device/samsung/janice/full_janice.mk)
 
