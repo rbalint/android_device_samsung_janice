@@ -17,20 +17,10 @@
 
 <resources xmlns:xliff="urnasis:names:tc:xliff:document:1.2 ">
 
-    <!-- Dock Settings -->
-    <bool name="has_dock_settings">true</bool>
-	
-    <!-- Volume Rocker Wake -->
-    <bool name="config_show_volumeRockerWake">true</bool>
-    
-     <!-- Home button Wake Support. Some devices do not support this.
-         Setting to false will disable Home button Wake support -->
-    <bool name="config_show_homeWake">true</bool>
-    
-    <!-- Show Expanded Desktop preference -->
-    <bool name="config_show_expandedDesktop">true</bool>
-    
-    <!-- Processor menu, freq cap files -->
-    <string name="max_cpu_freq_file" translatable="false">/sys/power/cpufreq_max_limit</string>
-    <string name="min_cpu_freq_file" translatable="false">/sys/power/cpufreq_min_limit</string>
+    <string name="additional_system_update" translatable="true"></string>
+    <string name="additional_system_update_menu" translatable="true"></string>
+
+    <!-- Must be true to display button settings -->
+    <bool name="config_device_has_button_settings" translatable="true">false</bool>
+
 </resources>
