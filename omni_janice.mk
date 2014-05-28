@@ -15,12 +15,6 @@ TARGET_SCREEN_WIDTH := 480
 # Inherit device configuration
 $(call inherit-product, device/samsung/janice/full_janice.mk)
 
-# CM Packages
-PRODUCT_PACKAGES += \
-    Stk \
-    org.cyanogenmod.hardware \
-    org.cyanogenmod.hardware.xml
-
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := janice
 PRODUCT_NAME := omni_janice
